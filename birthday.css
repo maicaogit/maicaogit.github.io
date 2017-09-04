@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+
+#things{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    background: url(img/birthday.png) no-repeat;
+    background-color: #52a6cb;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.botao{
+    left: 20%;
+    bottom: 100px;
+    margin: 20px 0 0 -100px !important;
+    padding: 0;
+    position: absolute;
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    width: 200px;
+    min-height: 50px;
+    line-height: 50px;
+    color: #EEE;
+    background: #e10024;
+    border-bottom: 6px solid #bd0120;
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.botao:active{
+	bottom:98px;
+	border-bottom: 3px solid #bd0120;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+#message{
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+}
